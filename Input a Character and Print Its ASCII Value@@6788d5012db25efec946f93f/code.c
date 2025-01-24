@@ -2,6 +2,7 @@
 int main() {
     char ch;
     scanf("%c",&ch);
-    print("%c",ch,ch);
+    int ascii = int(ch);
+    print("%c",ascii);
     return 0;
 }

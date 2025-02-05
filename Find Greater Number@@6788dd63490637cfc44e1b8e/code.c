@@ -8,5 +8,8 @@ int main() {
     else if(b>a){
         printf("%d",b);
     }
+    else{
+        printf("Invalid")
+    }
     return 0;
 }

@@ -4,35 +4,27 @@ int main() {
     scanf("%d",&n);
     if(n=1){
         printf("Monday");
-        break;
     }
     else if(n=2){
-        printf("Tuesday");
-        break;
+        printf("Tuesday");   
     }
     else if(n=3){
-        printf("Wednesday");
-        break;
+        printf("Wednesday");  
     }
     else if(n=4){
-        printf("Thrusday");
-        break;
+        printf("Thrusday");   
     }
     else if(n=5){
-        printf("Friday");
-        break;
+        printf("Friday");  
     }
     else if(n=6){
-        printf("Saturday");
-        break;
+        printf("Saturday");  
     }
     else if(n=7){
         printf("Sunday");
-        break;
     }
     else{
         printf("Invalid");
-        break;
     }
     
     return 0;

@@ -2,9 +2,9 @@
 int main() {
     char a[100],c[100];
     int b;
-    scanf("%c %d %c",&a,&b,&c);
-    printf("Name: %c\n",a);
+    scanf("%s %d %s",&a,&b,&c);
+    printf("Name: %s\n",a);
     printf("Age: %d\n",b);
-    printf("Hobby: %c\n",c);
+    printf("Hobby: %s\n",c);
     return 0;
 }

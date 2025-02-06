@@ -2,8 +2,11 @@
 int main() {
     char n;
     scanf("%c",&n);
-    if(n=A){
+    if(n==A){
         printf("Excellent");
+    }
+    else{
+        printf("Invalid grade");
     }
     return 0;
 }

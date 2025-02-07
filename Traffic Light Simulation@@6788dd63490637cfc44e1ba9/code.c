@@ -4,6 +4,7 @@ int main() {
     scanf("%c",&n);
     if(n='R'){
         printf("Stop");
+        break;
     }
     else if(n='G'){
         printf("Go");

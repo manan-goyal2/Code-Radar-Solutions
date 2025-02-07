@@ -2,9 +2,9 @@
 
 int main() {
     char ch;
-    scanf("%c",&a);
-    if(ch==a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z){
-        printf("Lowercase%c");
+    scanf("%c",&ch);
+    if(ch=isuppercase(ch)){
+        printf("Lowercase");
     }
     else{
         printf("Uppercase%c");

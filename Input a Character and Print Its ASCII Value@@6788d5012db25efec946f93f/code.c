@@ -2,11 +2,10 @@
 
 int main() {
     char ch;
-    
-    printf("Enter a character: ");
     scanf("%c", &ch);
+    int ascii = (int)ch;
     
-    printf("ASCII value: %d", ch, ch);
+    printf("ASCII value: %d",ascii);
     
     return 0;
 }

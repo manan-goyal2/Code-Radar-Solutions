@@ -1,6 +1,6 @@
 include <stdio.h>
 int main(){
-    int n,space,i,j;
+    int n;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         // print spaces

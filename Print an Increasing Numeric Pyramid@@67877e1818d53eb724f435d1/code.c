@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         // print spaces
-        for(space=1;space<=2*n-n;space++){
+        for(space=1;space<=n-1;space++){
             printf(" ");
         }
         //print stars

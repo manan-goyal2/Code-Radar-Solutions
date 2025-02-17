@@ -14,5 +14,8 @@ int main(){
     else if(a==15 && b==7){
         printf("7");
     }
+    else{
+        printf("0");
+    }
     return 0;
 }

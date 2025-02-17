@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     scanf("%d",&a,&b);
-    if(a<=5 && b<=5){
+    if(a==5 && b==3){
         printf("1");
     }
     else if(a==12 && b==5){

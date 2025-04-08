@@ -18,6 +18,6 @@ int main(){
         if(arr[i]!=max && smax<arr[i])
             smax = arr[i];
     }
-    printf(smax);
+    printf("%d",smax);
     
 }
